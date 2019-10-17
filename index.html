@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" type="text/css" href="style.css">
+    </head>
+    <body>
+        <!--header-->
+        <nav class = "header">
+            <div class = "projectname">
+                <h1>Alanna's Website Style Guide</h1>
+                <p>Colors | Fonts | Text Styles</p>
+        </div>
+        </nav>
+
+        <!--Overall Section-->
+        <div class="section">
+
+            <!--Colors-->
+            <div class = "colorsection">
+                <h1>Colors</h1>
+                <div class="purplecolor">
+                    <p class="color-label">Best Purple</p>
+                    <p class="color-rgb">RGB(128, 38, 202)</p>
+                </div>
+                <div class="greencolor">
+                    <p class="color-label">Best Green</p>
+                    <p class="color-rgb">RGB(0, 145, 48)</p>
+                </div>
+                <div class="bluecolor">
+                    <p class="color-label">Best Blue</p>
+                    <p class="color-rgb">RGB(42, 117, 216)</p>
+                </div>
+                <div class="pinkcolor">
+                    <p class="color-label">Best Pink</p>
+                    <p class="color-rgb">RGB(243, 95, 186)</p>
+                </div>
+                <div class="orangecolor">
+                    <p class="color-label">Best Orange</p>
+                    <p class="color-rgb">RGB(248, 129, 32)</p>
+                </div>
+                <div class="redcolor">
+                    <p class="color-label">Best Red</p>
+                    <p class="color-rgb">RGB(180, 19, 19)</p>
+                </div>
+                <div class="yellowcolor">
+                    <p class="color-label">Best Yellow</p>
+                    <p class="color-rgb">RGB(253, 253, 46)</p>
+                </div>
+            </div>
+
+            <!--Fonts-->
+            <div class="fontsection">
+                <h1>Fonts</h1>
+                <div class="serif">
+                    <h2>Serif Fonts:</h2>
+                    <h3>Playfair Display:</h3>
+                    <p class="playfairdisplay">She stared through the window at the stars</p>
+                    <p class="playfairdisplayitalic">She stared through the window at the stars</p>
+                    <p class="playfairdisplaybold">She stared through the window at the stars</p>
+
+                    <h3>Cinzel</h3>
+                    <p class="cinzel">The sky was cloudless and of a deep dark blue</p>
+                    <p class="cinzelbold">The sky was cloudless and of a deep dark blue</p>
+
+                    <h3>Alice</h3>
+                    <p class="alice">It was going to be a lonely trip back</p>
+                </div>
+
+                <div class="sans serif">
+                    <h2>Sans Serif Fonts:</h2>
+
+                    <h3>Karla</h3>
+                    <p class="karla">I watched the storm, so beautiful yet terrific</p>
+                    <p class="karlaitalic">I watched the storm, so beautiful yet terrific</p>
+                    <p class="karlabold">I watched the storm, so beautiful yet terrific</p>
+
+                    <h3>Alegreya Sans</h3>
+                    <p class="alegreyasans">Silver mist suffused the deck of the ship</p>
+                    <p class="alegreyasansitalic">Silver mist suffused the deck of the ship</p>
+                    <p class="alegreyasansbold">Silver mist suffused the deck of the ship</p>
+
+                    <h3>Philosopher</h3>
+                    <p class="philosopher">Waves flung themselves at the blue evening</p>
+                    <p class="philosopheritalic">Waves flung themselves at the blue evening</p>
+                    <p class="philosopherbold">Waves flung themselves at the blue evening</p>
+
+                </div>
+            </div>
+
+            <!--Text Styles-->
+            <div class="textstyles">
+                <h1>H1: Main Page Heading</h1>
+                    <ul>
+                        <li>Font-weight: 700 (bold)</li>
+                        <li>Font-size: 26px</li>
+                        <li>Font-family: Cinzel</li>
+                    </ul>
+                
+                <h2>H2: Subheading</h2>
+                    <ul>
+                        <li>Font-weight: 500</li>
+                        <li>Font-size: 18px</li>
+                        <li>Font-family: Alegreya Sans</li>
+                    </ul>
+                
+                <p>P: Paragraph Text</p>
+                    <ul>
+                        <li>Font-weight: 400 (regular)</li>
+                        <li>Font-size: 14px</li>
+                        <li>Font-family: Alice</li>
+                    </ul>
+            </div>
+
+            <!--Inputs-->
+            <div class="inputs">
+                <h1>Input Types</h1>
+                
+                <div class="inputborder">
+
+                    <div class="inputtext">
+                        <h2>Input Text:</h2>
+                        <form>
+                            <input type="text" id="input" name="input" required>
+                        </form>
+                    </div>
+
+                    <div class="inputpassword">
+                        <h2>Password Input:</h2>
+                        <form>
+                            User Name: 
+                            <input type="text" name="username"><br>
+                            User Password:
+                            <input type="password" name="psw">
+                        </form>
+                    </div>
+
+                    <div class="radiobutton">
+                        <h2>Radio Buttons:</h2>
+                        <form>
+                            <input type="radio" name="radiobutton" value="button1" checked>Button1
+                            <input type="radio" name="radiobutton" value="button2">Button2
+                        </form>
+                    </div>
+
+                    <div class="checkbox">
+                        <h2>Checkbox:</h2>
+                        <form>
+                            <input type="checkbox" name="checkbox" value="checkbox1" checked>Checkbox1
+                            <input type="checkbox" name="checkbox" value="checkbox2">Checkbox2
+                        </form>
+                    </div>
+
+                    <div class="button">
+                        <h2>Button Popup:</h2>
+                        <input type="button" onclick="alert('Popup Text!')" value="Click!">
+                    </div>
+
+                    <div class="incrementnumber">
+                        <h2>Increments:</h2>
+                        <input type="number" id="num-1" name="num-1" required>
+                    </div>
+
+                    <div id="optionchoices">
+                        <h2>Option Choices:</h2>
+                        <select id="options" name="optionchoices" required>
+                            <option value="pickthis">Pick This</option>
+                            <option value="nothis">No This</option>
+                            <option value="orthis">Or This</option>
+                        </select>
+                    </div>
+
+                    <div class="fillinoption">
+                        <h2>Fill In or Select Option:</h2>
+                        <input id="fill" name="fill" type="text" list="fillinoptions" required minlength="5" maxlength="120" required pattern="[a-zA-Z]+"> <!--adds a minlength and a max length and requires only letters-->
+                            <datalist id="fillinoptions">
+                                <option value="Pick This!"></option>
+                                <option value="No This!"></option>
+                                <option value="Or This!"></option>
+                            </datalist>
+                    </div>
+
+                    <div class="textarea">
+                        <h2>Text Area:</h2>
+                        <textarea id="message" name="message" required rows="8" cols="40"></textarea>
+                    </div>
+
+                </div>
+                
+            </div>
+
+        </div>
+    </body>
+</html>
